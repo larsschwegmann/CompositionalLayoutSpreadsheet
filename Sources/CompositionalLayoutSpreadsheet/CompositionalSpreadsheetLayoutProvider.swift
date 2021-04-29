@@ -53,7 +53,7 @@ class CompositionalSpreadsheetLayoutProvider {
             absoluteOffset: CGPoint(x: -cellWidth, y: 0)
         )
         stickyColumn.pinToVisibleBounds = true
-        stickyColumn.zIndex = 2
+        stickyColumn.zIndex = 1023
         
         // Item cell
         let itemSize = NSCollectionLayoutSize(
